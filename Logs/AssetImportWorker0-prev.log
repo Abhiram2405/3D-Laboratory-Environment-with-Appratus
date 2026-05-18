@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-05-18T08:59:50.366032Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32595 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-05-18T06:24:36.9583859Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-18T06:24:36Z
+Date: 2026-05-18T08:59:50Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\Editor\6000.3.10f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Chemistry_Lab/Kotha_lab/3D Laboratory Environment with Appratus
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58981
+65433
 -licensingIpc
 LicenseClient-USER
 -job-worker-count
@@ -67,12 +67,12 @@ D:/Chemistry_Lab/Kotha_lab/3D Laboratory Environment with Appratus
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [13920]  Target information:
+Player connection [14740]  Target information:
 
-Player connection [13920]  * "[IP] 172.17.31.41 [Port] 0 [Flags] 2 [Guid] 3819506183 [EditorId] 3819506183 [Version] 1048832 [Id] WindowsEditor(7,CRLCXR-L508-20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14740]  * "[IP] 172.17.31.41 [Port] 0 [Flags] 2 [Guid] 3885069757 [EditorId] 3885069757 [Version] 1048832 [Id] WindowsEditor(7,CRLCXR-L508-20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13920] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14740] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14740] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -100,44 +100,44 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001579 seconds.
-- Loaded All Assemblies, in  0.645 seconds
+Registered in 0.002203 seconds.
+- Loaded All Assemblies, in  0.687 seconds
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.725 seconds
-Domain Reload Profiling: 1369ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  0.611 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (215ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (190ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (213ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (303ms)
-			TypeCache.Refresh (300ms)
-				TypeCache.ScanAssembly (279ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (281ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (725ms)
+	FinalizeReload (611ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (664ms)
+		SetupLoadedEditorAssemblies (543ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (72ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (164ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,896 +149,76 @@ Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              d637bcb20d194b739978e1dacacb441b
+  Session Id:              cc6295b06a7e49e280a63d22e023e9dc
   Correlation Id:          169c7f7b1662b893cea63dc02a61e51a
-  External correlation Id: 3891881745432121755
+  External correlation Id: 3535321766064511877
   Machine Id:              x3AOiUowXN9Z7wLa3EsDRF2WyRw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 3.65s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-05-18T06:24:40.6064894Z"
-[Licensing::Module] Licensing Background thread has ended after 3.65s
-[Licensing::Module] Licensing is initialized (took 1.76s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.00s, handshake: 3.62s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-05-18T08:59:53.9860498Z"
+[Licensing::Module] Licensing Background thread has ended after 3.62s
+[Licensing::Module] Licensing is initialized (took 1.75s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-9NXS-JD5S-KC4M-T822-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-06-24T07:24:28Z
+  Expiration: 2026-06-24T09:59:45Z
 [Licensing::Module] License group:
   Id: 13469920211157-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.152 seconds
+- Loaded All Assemblies, in  2.096 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.591 seconds
-Domain Reload Profiling: 2744ms
-	BeginReloadAssembly (2037ms)
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 2717ms
+	BeginReloadAssembly (1984ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (55ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (19ms)
-		LoadAssemblies (146ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (20ms)
+		LoadAssemblies (128ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (1ms)
+			BuildScriptInfoCaches (3ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (592ms)
+	FinalizeReload (622ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (440ms)
+		SetupLoadedEditorAssemblies (458ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (172ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (28.5 KB). Loaded Objects now: 655.
-Memory consumption went from 63.3 MB to 63.3 MB.
-Total: 5.382500 ms (FindLiveObjects: 0.059900 ms CreateObjectMapping: 0.017300 ms MarkObjects: 5.219700 ms  DeleteObjects: 0.084300 ms)
+Unloading 64 unused Assets / (28.5 KB). Loaded Objects now: 660.
+Memory consumption went from 64.3 MB to 64.2 MB.
+Total: 6.356500 ms (FindLiveObjects: 0.049900 ms CreateObjectMapping: 0.009200 ms MarkObjects: 6.093900 ms  DeleteObjects: 0.201400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 268124.800465 seconds.
-  path: Packages/com.unity.multiplayer.center/Common/Unity.Multiplayer.Center.Common.asmdef
-  artifactKey: Guid(84abd2ab34a74600a33a3bb9d72859fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.multiplayer.center/Common/Unity.Multiplayer.Center.Common.asmdef using Guid(84abd2ab34a74600a33a3bb9d72859fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d8f63996509c71a632148b9c65fa042') in 0.005204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.multiplayer.center/Common
-  artifactKey: Guid(f247964bd405431fbd31840f97bef608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.multiplayer.center/Common using Guid(f247964bd405431fbd31840f97bef608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49bb803ba7263a0763911f1b46df6fbd') in 0.0005912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.945820 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/crucible_and_cover.prefab
-  artifactKey: Guid(f5d155c20147ddb4f9d7e882cbbc3518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/crucible_and_cover.prefab using Guid(f5d155c20147ddb4f9d7e882cbbc3518) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afb94186e5a86ec7b0df7520f4e565e2') in 0.1567217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/pillar.fbx
-  artifactKey: Guid(257a5a8162fa1ee4e8e82ac61c20f35b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/pillar.fbx using Guid(257a5a8162fa1ee4e8e82ac61c20f35b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcb3ffec76e3ce0317575817b530a31f') in 0.0997036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/table drawer 01.fbx
-  artifactKey: Guid(cc7b6741b67f5fa4fa0491a85f8a29ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/table drawer 01.fbx using Guid(cc7b6741b67f5fa4fa0491a85f8a29ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5983a7dd1cb31386ac5f9031b083af6c') in 0.0240062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Erlenmeyer_flask.fbx
-  artifactKey: Guid(2d6b31bbb0cc4d74f9eb0dcbe73380be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Erlenmeyer_flask.fbx using Guid(2d6b31bbb0cc4d74f9eb0dcbe73380be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8587c0bc221f0f32f0712984cf7513a4') in 0.0229036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube.prefab
-  artifactKey: Guid(35a0ff405c028a84ea19cdd98c893fd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube.prefab using Guid(35a0ff405c028a84ea19cdd98c893fd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a054eea5b45d11e520339e8ba56c3e66') in 0.0244381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Erlenmeyer_flask.prefab
-  artifactKey: Guid(e833bb11c8758f44a98ec0e99fba76d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Erlenmeyer_flask.prefab using Guid(e833bb11c8758f44a98ec0e99fba76d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd938f4e3f45c9a268dfbb1b334e9656') in 0.0198715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask with water.prefab
-  artifactKey: Guid(61c67c3c4a5f20f4b9b0d61fea197d67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask with water.prefab using Guid(61c67c3c4a5f20f4b9b0d61fea197d67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd129b7f067b3376fccaa76a8cab1ab46') in 0.0287891 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/florence_flask.fbx
-  artifactKey: Guid(fb0b01455e191c24b87848c181088517) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/florence_flask.fbx using Guid(fb0b01455e191c24b87848c181088517) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0abffd500599f5825194f4ed96011271') in 0.0310005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Others_Normal.png
-  artifactKey: Guid(87294edae22b70c4996c9b08b197f5c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Others_Normal.png using Guid(87294edae22b70c4996c9b08b197f5c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79ae2a258019ccf12b8a789550eeeefa') in 0.0982051 seconds
+  Time since last request: 277438.213788 seconds.
+  path: Assets/3D Laboratory Environment with Appratus/Scenes/Laboratory Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3D Laboratory Environment with Appratus/Scenes/Laboratory Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a58f5b537ede4e753e07d0603b35b141') in 0.1499584 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Test_tube_rack.fbx
-  artifactKey: Guid(6a6487b4b31c5b44db6e658d47143b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Test_tube_rack.fbx using Guid(6a6487b4b31c5b44db6e658d47143b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '646b7e4a9e6f0c61eaac4c4dc071fe66') in 0.0387311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Beaker water.prefab
-  artifactKey: Guid(24c728c68968f6447b856666f27564a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Beaker water.prefab using Guid(24c728c68968f6447b856666f27564a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e3ec5dc44850dfb609107a402c1fc2e') in 0.0332359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/analytical_lab_instruments.fbx
-  artifactKey: Guid(a419f6c4cca9daa45be9efe9e6d5d200) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/analytical_lab_instruments.fbx using Guid(a419f6c4cca9daa45be9efe9e6d5d200) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5124a27fc0ee8cd8dd75ceb8ea43c98e') in 0.0550054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/wood.fbx
-  artifactKey: Guid(398b4836cd5498d47b74a9e31016f5fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/wood.fbx using Guid(398b4836cd5498d47b74a9e31016f5fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e17a1b49306bb91a04c111682cbb8b9') in 0.0333444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models
-  artifactKey: Guid(3d9eefc80b19454428fa8be12af38b9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models using Guid(3d9eefc80b19454428fa8be12af38b9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '357e4a20f3cec0904850708d64560412') in 0.0215258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/roof.prefab
-  artifactKey: Guid(9733e4fa88518774b8a9132505e18863) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/roof.prefab using Guid(9733e4fa88518774b8a9132505e18863) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20df286781476c26574da3f352d95a02') in 0.0287634 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Floor_BaseMap.mat
-  artifactKey: Guid(5071cc7251fe57a4fa8619c2a51c0273) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Floor_BaseMap.mat using Guid(5071cc7251fe57a4fa8619c2a51c0273) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbfbde0c93de43092a96e3b728a63952') in 0.1023764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Glass_Normal.png
-  artifactKey: Guid(0b4c21b51ec008c4cac83097237bfd2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Glass_Normal.png using Guid(0b4c21b51ec008c4cac83097237bfd2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8692f350fc2bb2f1515b47f4d42c9a39') in 0.0264227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/floor.fbx
-  artifactKey: Guid(01814d9d4eef435478a4d6300d1b32aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/floor.fbx using Guid(01814d9d4eef435478a4d6300d1b32aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ad241d71d50eaa385044359d54f0b38') in 0.0313731 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/analytical_lab_instruments.prefab
-  artifactKey: Guid(828ad3f10ce3c7444b8f53141cc495e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/analytical_lab_instruments.prefab using Guid(828ad3f10ce3c7444b8f53141cc495e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac95ca0aa76fc6dac3348de1f67b3a06') in 0.0246832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Box02.fbx
-  artifactKey: Guid(da8d6c6ca953aa24a924db0a93d368ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Box02.fbx using Guid(da8d6c6ca953aa24a924db0a93d368ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e345bff2f64def52659d56e5c36ab58c') in 0.0846047 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/lab glass.fbx
-  artifactKey: Guid(449aaef256bf48b4481513c653f7e708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/lab glass.fbx using Guid(449aaef256bf48b4481513c653f7e708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8b2b41d550d7a89f49ec16b74e77435') in 0.0301247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Graduated_Cylinder.prefab
-  artifactKey: Guid(820eb138b931c5e428d3fba6a0c81a0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Graduated_Cylinder.prefab using Guid(820eb138b931c5e428d3fba6a0c81a0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69234a9da4f810ca438c3555539a6aa4') in 0.0273075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/rack.prefab
-  artifactKey: Guid(513546a837bb5d44cbbb2f9939336861) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/rack.prefab using Guid(513546a837bb5d44cbbb2f9939336861) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f11f7f3cd66c7e75604768790bcb110d') in 0.0300756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/drawer handle.prefab
-  artifactKey: Guid(94158784aed10c64fba4aa087970b60a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/drawer handle.prefab using Guid(94158784aed10c64fba4aa087970b60a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58d92e54e6baebd1f41f10616df9b472') in 0.0276715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Documentation
-  artifactKey: Guid(7a135cb3f89a83844af9b74c12c6fda9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Documentation using Guid(7a135cb3f89a83844af9b74c12c6fda9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '388ccf2e09518693dce95971abdbaf91') in 0.0170829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002277 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube water.prefab
-  artifactKey: Guid(db6546049b07ead45b5904d4dd8c3ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube water.prefab using Guid(db6546049b07ead45b5904d4dd8c3ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e269b4a9ddf5e9268fa729ca38dc27e9') in 0.0258178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Beakerwater.prefab
-  artifactKey: Guid(a572e70971ff81f4992e8360d5356395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Beakerwater.prefab using Guid(a572e70971ff81f4992e8360d5356395) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd82094e65173711a7e1f8124dca542e7') in 0.0167664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/wall01.fbx
-  artifactKey: Guid(72b847457babaa54496fecaadc9bbadc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/wall01.fbx using Guid(72b847457babaa54496fecaadc9bbadc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d44cb2566d5f51f31807db4e182e349') in 0.0376341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube with liquid.prefab
-  artifactKey: Guid(cbb3159864b0a1348ab992ae9813d64d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube with liquid.prefab using Guid(cbb3159864b0a1348ab992ae9813d64d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1486dba8348174bb51d9b6e6e310f74') in 0.0199683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/showcase.fbx
-  artifactKey: Guid(e03cbcdcee58c8e4ab6df222b32f4812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/showcase.fbx using Guid(e03cbcdcee58c8e4ab6df222b32f4812) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90133248fdfc61a311c1c5f7eef41ec0') in 0.0432107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Liquid 2.mat
-  artifactKey: Guid(5c4854f1dd0cbe84a92d1ba0e1baffc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Liquid 2.mat using Guid(5c4854f1dd0cbe84a92d1ba0e1baffc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3eac26d55166534ca9316f1a0a80e69') in 0.119279 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Others_MaskMap.png
-  artifactKey: Guid(5cae7e11d0939d8499f4090399a87887) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Others_MaskMap.png using Guid(5cae7e11d0939d8499f4090399a87887) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4553fe5d7143ed319eb59e63f9b17aa') in 0.0254352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/china dish.prefab
-  artifactKey: Guid(255b4818040390b40b67510d8b7d9c52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/china dish.prefab using Guid(255b4818040390b40b67510d8b7d9c52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f21830fb2a21c34aafc717ff69b1bae') in 0.0254964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Box.fbx
-  artifactKey: Guid(87f8498830346b340b93f6a02d6fee04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Box.fbx using Guid(87f8498830346b340b93f6a02d6fee04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40d70dc1666d3ea81e7681fcfe8db460') in 0.0301622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Other_01_MaskMap.png
-  artifactKey: Guid(bee4e45b27cb3bb4db278abad44aa75f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Other_01_MaskMap.png using Guid(bee4e45b27cb3bb4db278abad44aa75f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e35d9b14a7330945578a8dbb87687dbf') in 0.0277176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/table with drawers.fbx
-  artifactKey: Guid(e3ab3270e0b468645b43506e835e51c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/table with drawers.fbx using Guid(e3ab3270e0b468645b43506e835e51c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6fc77efc6b47a60d153c5dd9dae0e4e') in 0.0318275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/floor.prefab
-  artifactKey: Guid(5d77a75c98992b840b27e02e065df54f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/floor.prefab using Guid(5d77a75c98992b840b27e02e065df54f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6814f45617b29458bbc413640fb3008') in 0.0246361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/stand glass.prefab
-  artifactKey: Guid(9aca137ba3103e045be3c3962b52a762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/stand glass.prefab using Guid(9aca137ba3103e045be3c3962b52a762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce5c7774283e0d7132ba65d157be7d9b') in 0.0290319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/shelf.fbx
-  artifactKey: Guid(fcb5eb169ed525d47b77a0dc026351d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/shelf.fbx using Guid(fcb5eb169ed525d47b77a0dc026351d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06da1ca7ac85a9e2fb681b21d7fc6e6b') in 0.0359819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/New Material.mat
-  artifactKey: Guid(2bece4266c1175a4faabdb2e7063f6fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/New Material.mat using Guid(2bece4266c1175a4faabdb2e7063f6fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f45f6e9be71e7c872a18bfe8ee8d041') in 0.0177695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/3D Laboratory Environment with Appratus
-  artifactKey: Guid(8bcbde136791e9541afb8440091a17bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus using Guid(8bcbde136791e9541afb8440091a17bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9a438fc053c95f9f9c1ca0f862f7859') in 0.0149987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Crucible_Tongs.prefab
-  artifactKey: Guid(d3d7e60fc48e62749a9025c6f1aa5fd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Crucible_Tongs.prefab using Guid(d3d7e60fc48e62749a9025c6f1aa5fd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e390950bbde6809ce1b7449109f8a21') in 0.0208064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Others_BaseMap.png
-  artifactKey: Guid(3575abca2e482f2408c0769051268edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Others_BaseMap.png using Guid(3575abca2e482f2408c0769051268edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '315dfc35a3046623a961acf2a3c7ddd8') in 0.0269094 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/shelf.prefab
-  artifactKey: Guid(f2629ace2826e974393b395f2af2bb50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/shelf.prefab using Guid(f2629ace2826e974393b395f2af2bb50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8826b9370e8f71b9357e197cb1278af6') in 0.0252555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Glass_BaseMap.mat
-  artifactKey: Guid(62dad06c47d1d1a448901a67f077f0b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Glass_BaseMap.mat using Guid(62dad06c47d1d1a448901a67f077f0b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afa8c9aab297a024e9e1486a7a193ad5') in 0.0227782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Others_BaseMap.mat
-  artifactKey: Guid(935190269a0097e468613dae1055aa8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Others_BaseMap.mat using Guid(935190269a0097e468613dae1055aa8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76fe5cccf8260bb8e709408fda86e152') in 0.0320165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Floor_BaseMap.png
-  artifactKey: Guid(d2d753fdabd60e240b6f9a1f4f664682) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Floor_BaseMap.png using Guid(d2d753fdabd60e240b6f9a1f4f664682) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56f4ac4092f2162c99622432ced74a3c') in 0.0221022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/water Shelf.fbx
-  artifactKey: Guid(663bf986ccc8edf4d9e5e9f3bfea7cea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/water Shelf.fbx using Guid(663bf986ccc8edf4d9e5e9f3bfea7cea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '801d5605e24dc6e719c5329645925eb5') in 0.0319871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/lab shelf.fbx
-  artifactKey: Guid(85345779dac899343b26048cbc35f79b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/lab shelf.fbx using Guid(85345779dac899343b26048cbc35f79b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8826d0d148a3bb44ffe1f4da08bb892c') in 0.0320841 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs
-  artifactKey: Guid(e1e2c1a37a4d5e5448202c747e20dc8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs using Guid(e1e2c1a37a4d5e5448202c747e20dc8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '203968a26f1870ae1ec7088196ee3f98') in 0.0116995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/forceps.prefab
-  artifactKey: Guid(9a14f10813bd2394a9b94cf38409043f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/forceps.prefab using Guid(9a14f10813bd2394a9b94cf38409043f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2c152599fa784a133d09af1dacc5f04') in 0.0209803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/crucible_and_cover.fbx
-  artifactKey: Guid(ddd4e0df3ec62434ebc8a1ed9d649589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/crucible_and_cover.fbx using Guid(ddd4e0df3ec62434ebc8a1ed9d649589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04b3271ad47c3c0b149700fd107fc7b0') in 0.0306624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/water Shelf.prefab
-  artifactKey: Guid(015d07e8f9746c94eb8cd53e5b0964ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/water Shelf.prefab using Guid(015d07e8f9746c94eb8cd53e5b0964ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc77c0a2ca23425f8337e62ee6b21821') in 0.0213999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Box.prefab
-  artifactKey: Guid(39cc7f30cb7643c4788fafb36317e6f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Box.prefab using Guid(39cc7f30cb7643c4788fafb36317e6f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21c8a8737cea96a15ad6e8b8760e626a') in 0.0224949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Spirit_Lamp with water.prefab
-  artifactKey: Guid(ff25b715f02cfd947b8608c3d7de53c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Spirit_Lamp with water.prefab using Guid(ff25b715f02cfd947b8608c3d7de53c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed75d1c538b3d091cfb8bcc5fa516ea8') in 0.0253846 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Documentation/3D Laboratory environment with appratus.txt
-  artifactKey: Guid(97a181f1837b49b4ca588fa3865697da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Documentation/3D Laboratory environment with appratus.txt using Guid(97a181f1837b49b4ca588fa3865697da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88cb7eac020878edddaca690020e0b5c') in 0.0178589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Graduated_Cylinder.fbx
-  artifactKey: Guid(1acc6957f1749f9449324468a75cad02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Graduated_Cylinder.fbx using Guid(1acc6957f1749f9449324468a75cad02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93d65d3deb40389832e6fae4046d135c') in 0.0272185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask water.prefab
-  artifactKey: Guid(b23404ba7c29bc249b69b2cc6f6d6b36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask water.prefab using Guid(b23404ba7c29bc249b69b2cc6f6d6b36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70e202a29f1f6ed90e3db2425cf63117') in 0.0231754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/lambert1.mat
-  artifactKey: Guid(9cccea665b138ec4c9a38c405f8554cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/lambert1.mat using Guid(9cccea665b138ec4c9a38c405f8554cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '088d9bba6afdcc1032a94f5fa19be145') in 0.0201708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Other_01_Normal.png
-  artifactKey: Guid(6ed960c61e48dd34a8ca3a3b96aa57c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Other_01_Normal.png using Guid(6ed960c61e48dd34a8ca3a3b96aa57c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22ffe4c4d537cb15372d1aa57d5b1a5b') in 0.0267227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Other_01_BaseMap.png
-  artifactKey: Guid(7caa9768d618d674893979c47d8b7233) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/Laboratory03_Other_01_BaseMap.png using Guid(7caa9768d618d674893979c47d8b7233) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a900f46445383c1b69de372a6dd5c7d8') in 0.0338118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures/roof and blub_other02_BaseMap.png
-  artifactKey: Guid(ee427fb8846523d4bb557c8cb53e5ca0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures/roof and blub_other02_BaseMap.png using Guid(ee427fb8846523d4bb557c8cb53e5ca0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c7c4c668c7a68b90121e746fd5d24b6') in 0.0268498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Textures
-  artifactKey: Guid(aa4faf7821a2d384192dfc8d94210ce0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Textures using Guid(aa4faf7821a2d384192dfc8d94210ce0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c112b5f25fbf4b4468052f912c80c1fe') in 0.0178933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/stand glass.fbx
-  artifactKey: Guid(c46ea31fd4e9353429ec414ebc1dbceb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/stand glass.fbx using Guid(c46ea31fd4e9353429ec414ebc1dbceb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e460c088528528ad004d641f0218c89c') in 0.0348474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.964933 seconds.
-  path: Assets/3D Laboratory Environment with Appratus
-  artifactKey: Guid(8bcbde136791e9541afb8440091a17bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus using Guid(8bcbde136791e9541afb8440091a17bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be38ed2f0b162561fcd864a5dc41388c') in 0.0009898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.318244 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Glass_BaseMap.mat
-  artifactKey: Guid(62dad06c47d1d1a448901a67f077f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Laboratory03_Glass_BaseMap.mat using Guid(62dad06c47d1d1a448901a67f077f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5f45f08e588d044a004cec969bf136f') in 0.5177412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Liquid 3.mat
-  artifactKey: Guid(65529ac748f009d4dbdee8d40e2e6402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Liquid 3.mat using Guid(65529ac748f009d4dbdee8d40e2e6402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '658e97b69c580faa84b30963be5706d8') in 0.3929054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Liquid 2.mat
-  artifactKey: Guid(5c4854f1dd0cbe84a92d1ba0e1baffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Liquid 2.mat using Guid(5c4854f1dd0cbe84a92d1ba0e1baffc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64bc071ed84676e8f9c737dc4252f424') in 0.016643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/Liquid.mat
-  artifactKey: Guid(94c11be5b5b74c440a5c2fc75dc65d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/Liquid.mat using Guid(94c11be5b5b74c440a5c2fc75dc65d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '507da098e801d7eeb4d0111ff1e5f1d7') in 0.022611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Materials/New Material.mat
-  artifactKey: Guid(2bece4266c1175a4faabdb2e7063f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Materials/New Material.mat using Guid(2bece4266c1175a4faabdb2e7063f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d49d4842cd4a000d9a9ab9507a75642') in 0.241003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.606484 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Beaker.fbx
-  artifactKey: Guid(44fed6aff454809469effaac1a0b86ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Beaker.fbx using Guid(44fed6aff454809469effaac1a0b86ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79ba8e9ac6b26cb3f75929e73b9219ff') in 0.0754263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/table drawer 01.fbx
-  artifactKey: Guid(cc7b6741b67f5fa4fa0491a85f8a29ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/table drawer 01.fbx using Guid(cc7b6741b67f5fa4fa0491a85f8a29ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47ba60e71d5875447053ddd09f9b0ff7') in 0.2610485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Spirit_Lamp.fbx
-  artifactKey: Guid(43f13c2bdd3f0704583b07aa61489e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Spirit_Lamp.fbx using Guid(43f13c2bdd3f0704583b07aa61489e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49ad8c7b51ef1f77ef2ec37a68ef2454') in 0.0875667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/wood.fbx
-  artifactKey: Guid(398b4836cd5498d47b74a9e31016f5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/wood.fbx using Guid(398b4836cd5498d47b74a9e31016f5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39a4df5b0983d7e17b417c6683a77eb0') in 0.0217323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/shelf showcase 1.fbx
-  artifactKey: Guid(19cebbe4a89244b42992150bce37a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/shelf showcase 1.fbx using Guid(19cebbe4a89244b42992150bce37a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc24839ed36fe6eb7511dfd3928c44ca') in 0.0414026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/floor.fbx
-  artifactKey: Guid(01814d9d4eef435478a4d6300d1b32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/floor.fbx using Guid(01814d9d4eef435478a4d6300d1b32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b806c8169fbdd2721c77da1e70187d28') in 0.0342565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/rack.fbx
-  artifactKey: Guid(36d8dee32598ee9429a422732baf5b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/rack.fbx using Guid(36d8dee32598ee9429a422732baf5b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe6c42372a530f2014755f1e993d31cb') in 0.0524766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/glass.fbx
-  artifactKey: Guid(64697bdc6c9d4c340b65bc835aa723a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/glass.fbx using Guid(64697bdc6c9d4c340b65bc835aa723a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '674a0eb925b402f627ccbcda766839b8') in 0.1991582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Graduated_Cylinder.fbx
-  artifactKey: Guid(1acc6957f1749f9449324468a75cad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Graduated_Cylinder.fbx using Guid(1acc6957f1749f9449324468a75cad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fcc05f28e56cac08d325a41de9f20c3') in 0.0302549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/Erlenmeyer_flask.fbx
-  artifactKey: Guid(2d6b31bbb0cc4d74f9eb0dcbe73380be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/Erlenmeyer_flask.fbx using Guid(2d6b31bbb0cc4d74f9eb0dcbe73380be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9d116140b56e7fb4c92bd08591d8b29') in 0.025723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/water Shelf.fbx
-  artifactKey: Guid(663bf986ccc8edf4d9e5e9f3bfea7cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/water Shelf.fbx using Guid(663bf986ccc8edf4d9e5e9f3bfea7cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c3a280f3daf716ef6068db12cb95da4') in 0.0443436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/stand glass.fbx
-  artifactKey: Guid(c46ea31fd4e9353429ec414ebc1dbceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/stand glass.fbx using Guid(c46ea31fd4e9353429ec414ebc1dbceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '796de9ae002f0096cf4a5a63588e415e') in 0.0232407 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Models/showcase.fbx
-  artifactKey: Guid(e03cbcdcee58c8e4ab6df222b32f4812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Models/showcase.fbx using Guid(e03cbcdcee58c8e4ab6df222b32f4812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '469cbd7aad97b6361b0907cdd1accffc') in 0.2339531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.307533 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Beaker.prefab
-  artifactKey: Guid(1836ec5a4a9706d42b8941d84940196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Beaker.prefab using Guid(1836ec5a4a9706d42b8941d84940196f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a72536b1fd9304a730e7245c9375ca6') in 0.0235128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube with liquid.prefab
-  artifactKey: Guid(cbb3159864b0a1348ab992ae9813d64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube with liquid.prefab using Guid(cbb3159864b0a1348ab992ae9813d64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e3364ba55eaa4cf39f94d430ed317e3') in 0.0241097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask.prefab
-  artifactKey: Guid(5946c1452d879cf4bb19e57f7179e519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask.prefab using Guid(5946c1452d879cf4bb19e57f7179e519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '113bb892a3a63214729fd65ad29eb5ef') in 0.0252616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/crucible_and_cover.prefab
-  artifactKey: Guid(f5d155c20147ddb4f9d7e882cbbc3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/crucible_and_cover.prefab using Guid(f5d155c20147ddb4f9d7e882cbbc3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46e857a7fa4093ff7c80345f3cc4e406') in 0.028446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Erlenmeyer_flask.prefab
-  artifactKey: Guid(e833bb11c8758f44a98ec0e99fba76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Erlenmeyer_flask.prefab using Guid(e833bb11c8758f44a98ec0e99fba76d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b3740d791e39d0956938254d2bb0b80') in 0.0237208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask with water.prefab
-  artifactKey: Guid(61c67c3c4a5f20f4b9b0d61fea197d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/florence_flask with water.prefab using Guid(61c67c3c4a5f20f4b9b0d61fea197d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ff5b10d84a23c056d9abd2ebc2ef896') in 0.0221166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/drawer handle.prefab
-  artifactKey: Guid(94158784aed10c64fba4aa087970b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/drawer handle.prefab using Guid(94158784aed10c64fba4aa087970b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72535ea4c7144f292e03ac297210573e') in 0.0223673 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/shelf.prefab
-  artifactKey: Guid(f2629ace2826e974393b395f2af2bb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/shelf.prefab using Guid(f2629ace2826e974393b395f2af2bb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdbbf04a30185d4d7940ce22b3cc322e') in 0.0235934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/glass support.prefab
-  artifactKey: Guid(f638304d9ae649a468fda10676275d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/glass support.prefab using Guid(f638304d9ae649a468fda10676275d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6331c3acccc12ace98909998b1b0fbb2') in 0.0327602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/roof.prefab
-  artifactKey: Guid(9733e4fa88518774b8a9132505e18863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/roof.prefab using Guid(9733e4fa88518774b8a9132505e18863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '007b7be5c2715966a933b9f302fcbb24') in 0.0281248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Beakerwater.prefab
-  artifactKey: Guid(a572e70971ff81f4992e8360d5356395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Beakerwater.prefab using Guid(a572e70971ff81f4992e8360d5356395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1437ccce448c821d4d09c89f96ce5883') in 0.0172191 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube.prefab
-  artifactKey: Guid(35a0ff405c028a84ea19cdd98c893fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/Glass_Lab_test_tube.prefab using Guid(35a0ff405c028a84ea19cdd98c893fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdb66b0057f5172fa7d077ed70abf0e1') in 0.0229525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/tap.prefab
-  artifactKey: Guid(db90a77efe2e41f438b4f71f4dbca71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/tap.prefab using Guid(db90a77efe2e41f438b4f71f4dbca71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e570b5bd6a4e3818335dd6b100c0dd31') in 0.0242064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/glass_funnel.prefab
-  artifactKey: Guid(fafcb18b3640bbc4a9d8f89ffd6f3b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/glass_funnel.prefab using Guid(fafcb18b3640bbc4a9d8f89ffd6f3b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcd71a5f0987d58536c53e2b2c0d7471') in 0.0196633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/rack.prefab
-  artifactKey: Guid(513546a837bb5d44cbbb2f9939336861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/rack.prefab using Guid(513546a837bb5d44cbbb2f9939336861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c1f556d13847dca35482eb3ee3e5592') in 0.0197024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/shelf (2).prefab
-  artifactKey: Guid(1f01da7e5a2d2554e8e434b44031fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/shelf (2).prefab using Guid(1f01da7e5a2d2554e8e434b44031fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af13ebb964bce27a19570e5cee896b9') in 0.0231459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/chair.prefab
-  artifactKey: Guid(00f2ce65178270a459700e0c08c55a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/chair.prefab using Guid(00f2ce65178270a459700e0c08c55a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95fe6ae1a5d3484e596babe942d5be15') in 0.0325773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/3D Laboratory Environment with Appratus/Prefabs/wall01.prefab
-  artifactKey: Guid(90dbb427ac5963541b1cdbc7520999e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Laboratory Environment with Appratus/Prefabs/wall01.prefab using Guid(90dbb427ac5963541b1cdbc7520999e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c0ba7543f6ebd3df20df1820e7dfaa4') in 0.0204625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
