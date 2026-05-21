@@ -69,6 +69,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.xr.oculus@4.5.4": {
+      "name": "com.unity.xr.oculus",
+      "displayName": "Oculus XR Plugin",
+      "resolvedPath": "D:\\Chemistry_Lab\\Kotha_lab\\3D Laboratory Environment with Appratus\\Library\\PackageCache\\com.unity.xr.oculus@68ef97a4d91e",
+      "fingerprint": "68ef97a4d91ed0587d1d5060388c359cb4de4870",
+      "editorCompatibility": "2022.3.1f1",
+      "version": "4.5.4",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.xr.openxr@1.16.1": {
       "name": "com.unity.xr.openxr",
       "displayName": "OpenXR Plugin",

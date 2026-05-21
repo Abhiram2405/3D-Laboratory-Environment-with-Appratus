@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639148497753645632
-    m_Hash: 97867753
+      ticks: 639149345607482395
+    m_Hash: 3049635187
   m_LockFileStatus:
     m_FilePath: D:/Chemistry_Lab/Kotha_lab/3D Laboratory Environment with Appratus/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639148497753976424
-    m_Hash: 2286959973
+      ticks: 639149345607939749
+    m_Hash: 1942003648
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1017,6 +1017,217 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 4.5.4
     minimumUnityVersion: 2022.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.xr.oculus@4.5.4
+  testable: 0
+  isDirectDependency: 1
+  version: 4.5.4
+  source: 1
+  resolvedPath: D:\Chemistry_Lab\Kotha_lab\3D Laboratory Environment with Appratus\Library\PackageCache\com.unity.xr.oculus@68ef97a4d91e
+  assetPath: Packages/com.unity.xr.oculus
+  name: com.unity.xr.oculus
+  displayName: Oculus XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides display and input support for Oculus devices.
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview
+    - 0.1.2-preview.1
+    - 0.8.4-preview
+    - 1.0.0-preview.4
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3-preview.1
+    - 1.1.0-preview
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2
+    - 1.1.3-preview
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4-preview.1
+    - 1.1.4
+    - 1.1.5-preview
+    - 1.1.5
+    - 1.2.0-preview.1
+    - 1.2.0
+    - 1.3.1
+    - 1.3.3
+    - 1.3.4
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0
+    - 1.4.3
+    - 1.5.0
+    - 1.5.1
+    - 1.6.0-preview.1
+    - 1.6.0-preview.2
+    - 1.6.1
+    - 1.7.0-preview.1
+    - 1.7.0-preview.2
+    - 1.7.0
+    - 1.8.1
+    - 1.9.0-preview.1
+    - 1.9.0
+    - 1.9.1
+    - 1.10.0-preview.1
+    - 1.10.0-preview.2
+    - 1.10.0
+    - 1.10.1-preview.3
+    - 1.11.0
+    - 1.11.2
+    - 1.12.0
+    - 1.12.1
+    - 1.13.0
+    - 1.13.1-preview.1
+    - 1.13.1-preview.2
+    - 1.13.1
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.2-preview.1
+    - 2.2.0-preview.1
+    - 2.2.3-preview.1
+    - 2.2.3-preview.2
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0-pre.4
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.1.1
+    - 3.2.1
+    - 3.2.2-pre.1
+    - 3.2.2
+    - 3.2.3-pre.1
+    - 3.2.3
+    - 3.3.0
+    - 3.4.0
+    - 3.4.1
+    - 4.0.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.0-exp-env-depth.1
+    - 4.2.0-exp-env-depth.2
+    - 4.2.0
+    - 4.3.0-pre.1
+    - 4.3.0
+    - 4.4.0
+    - 4.5.0
+    - 4.5.1
+    - 4.5.2
+    - 4.5.4
+    compatible:
+    - 4.5.2
+    - 4.5.4
+    recommended: 4.5.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.5.4
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.5.3
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.13
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords:
+  - oculus
+  - xr
+  - vr
+  - virtual
+  - rift
+  - quest
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639069887050660000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
+    revision: 2fe6646feef794b539bd6412468fed6cacb884ba
+    path: 
+  unityLifecycle:
+    version: 4.5.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- macOS binaries are now code signed\n-
+    Added dependency on `com.unity.modules.androidjni`\n\n### Known Issues\n- `Unity.XR.Oculus.Stats.PerfMetrics`
+    entries currently return `0` when using the OpenXR runtime\n- `Unity.XR.Oculus.Stats.AppMetrics`
+    entries return `0` on all Oculus runtimes\n- For both of the above, the suggested
+    replacement is to use the profiling tools available via the Oculus Developer
+    Hub: https://developer.oculus.com/documentation/unity/ts-odh-logs-metrics/\n-
+    `Acceleration` and `AngularAcceleration` values on tracked poses currently return
+    `0` when using the OpenXR runtime.  This is a limitation of the OpenXR API"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 68ef97a4d91ed0587d1d5060388c359cb4de4870
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.5.2
+    minimumUnityVersion: 2022.3.1f1
   compliance:
     status: 0
     violation:
