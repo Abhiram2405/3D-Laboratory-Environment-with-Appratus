@@ -24,3 +24,15 @@ Recordings/
 
 .DS_Store
 Thumbs.db
+Library/ArtifactDB
+Library/Search/transactions.db
+Library/ShaderCache.db
+Library/SourceAssetDB
+Library/SourceAssetDB-lock
+Library/UndoData.bin
+Library/UndoStack.bin
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
+Logs/shadercompiler-AssetImportWorker0-0.log
+Logs/shadercompiler-AssetImportWorker1-0.log
+Logs/shadercompiler-UnityShaderCompiler.exe-0.log
