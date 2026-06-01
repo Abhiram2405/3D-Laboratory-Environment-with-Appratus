@@ -1,15 +1,24 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
+# Unity Folders (Handles both Windows and standard slash formats)
+Library/
+Library\
+Temp/
+Temp\
+Obj/
+Obj\
+Build/
+Builds/
+Logs/
+Logs\
 UserSettings/
+UserSettings\
 
+# Memory Captures & Recordings
 MemoryCaptures/
-
+MemoryCaptures\
 Recordings/
+Recordings\
 
+# Generated IDE project files
 *.csproj
 *.unityproj
 *.sln
@@ -21,18 +30,13 @@ Recordings/
 *.booproj
 *.svd
 *.pdb
+*.opendb
+*.IDB
 
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
-Library/ArtifactDB
-Library/Search/transactions.db
-Library/ShaderCache.db
-Library/SourceAssetDB
-Library/SourceAssetDB-lock
-Library/UndoData.bin
-Library/UndoStack.bin
-Logs/AssetImportWorker0.log
-Logs/AssetImportWorker1.log
-Logs/shadercompiler-AssetImportWorker0-0.log
-Logs/shadercompiler-AssetImportWorker1-0.log
-Logs/shadercompiler-UnityShaderCompiler.exe-0.log
+ehthumbs.db
+Desktop.ini
